@@ -159,31 +159,31 @@ echo $_SESSION['abc'];
                     <div class="row">
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="https://cdn0.iconfinder.com/data/icons/classic-icons/512/056.png" alt="...">
+      <img src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.0-9/422392_354320624590881_1503134766_n.jpg?oh=0cc8aa7d36f4909c42652460daa652ba&oe=595D7CC2" alt="...">
       <div class="caption">
         <h3>Tutor</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Choice</a> <a href="#" class="btn btn-default" role="button">More</a></p>
+        <p>อ.ต้น บลาบลา</p>
+        <p><a href="https://www.facebook.com/%E0%B8%AD%E0%B8%95%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B8%A5%E0%B8%B2%E0%B8%9A%E0%B8%A5%E0%B8%B2-330579093631701/" class="btn btn-primary" role="button">Choice</a> <a href="page_5.php" class="btn btn-default" role="button">More</a></p>
       </div>
     </div>
   </div>
     <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="https://cdn0.iconfinder.com/data/icons/classic-icons/512/056.png" alt="...">
+      <img src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.0-9/10659333_861024100588515_2663105569015556602_n.jpg?oh=db95297ae6e6a961a3c6461698597dcc&oe=5995B8F4" alt="...">
       <div class="caption">
         <h3>Tutor</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Choice</a> <a href="#" class="btn btn-default" role="button">More</a></p>
+        <p>โรงเรียนสอนศิลปะทอศิลป์</p>
+        <p><a href="https://www.facebook.com/fantorsilp/" class="btn btn-primary" role="button">Choice</a> <a href="page_6.php" class="btn btn-default" role="button">More</a></p>
       </div>
     </div>
   </div>
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="https://cdn0.iconfinder.com/data/icons/classic-icons/512/056.png" alt="...">
+      <img src="http://4.bp.blogspot.com/-wYsAXaQTVwU/VeHl7PLd6SI/AAAAAAAAGsw/3NP8hvRe-2U/s640/11063472_867545686645096_6929592698593716248_n.jpg" alt="...">
       <div class="caption">
         <h3>Tutor</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Choice</a> <a href="#" class="btn btn-default" role="button">More</a></p>
+        <p>ครูซัน มาตีกลองกันเถอะ</p>
+        <p><a href="http://xn--12cm4bp6d0ave3e.blogspot.com/" class="btn btn-primary" role="button">Choice</a> <a href="page_7.php" class="btn btn-default" role="button">More</a></p>
       </div>
     </div>
   </div>

@@ -1,6 +1,6 @@
 
 <?php
-$objConnect = mysql_connect("localhost","root","") or die("Error Connect to Database");
+$objConnect = mysql_connect("u233790766_tuch","u233790766_root","sawada27") or die("Error Connect to Database");
 $objDB = mysql_select_db("user");
 $strSQL = "INSERT INTO con ";
 $strSQL .="(name,email,mes) ";

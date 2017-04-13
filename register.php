@@ -1,7 +1,7 @@
 
 <?php
-$objConnect = mysql_connect("mysql.hostinger.in.th","u480466230_verfy","sawada27") or die("Error Connect to Database");
-$objDB = mysql_select_db("u480466230_verfy");
+$objConnect = mysql_connect("mysql.hostinger.in.th","u233790766_root","sawada27") or die("Error Connect to Database");
+$objDB = mysql_select_db("u233790766_tuch");
 $strSQL = "INSERT INTO eit ";
 $strSQL .="(name,email,pass) ";
 $strSQL .="VALUES ";

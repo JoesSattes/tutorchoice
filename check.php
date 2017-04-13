@@ -2,8 +2,8 @@
  session_start();
  header ('Content-type: text/html; charset=utf-8');
  
- mysql_connect("mysql.hostinger.in.th","u480466230_verfy","sawada27");  //ข้อมูลนี้ได้มาจากตอนติดตั้งเว็บเซิร์ฟเวอร์
- mysql_select_db("u480466230_verfy");
+ mysql_connect("mysql.hostinger.in.th","u233790766_root","sawada27");  //ข้อมูลนี้ได้มาจากตอนติดตั้งเว็บเซิร์ฟเวอร์
+ mysql_select_db("u233790766_tuch");
  
  $username = isset($_POST['email']) ? $_POST['email'] : '';
  $password = isset($_POST['pass']) ? $_POST['pass'] : '';
