@@ -2,12 +2,12 @@
 session_start();
 
 ?>
-
-<html lang="en">
+<!doctype html>
+<html lang="th">
 <head>
 	<meta charset="utf-8" />
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/logo_tutor2.png">
+	<link rel="icon" type="image/png" href="assets/img/logo_tutor2.png">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 	<title>Tutor Choice</title>
@@ -41,7 +41,7 @@ session_start();
 	        	<span class="icon-bar"></span>
 	        	<span class="icon-bar"></span>
 	    	</button>
-	    	<a href="http://www.creative-tim.com">
+	    	<a href="index.html">
 	        	<div class="logo-container">
 	                <div class="logo">
 	                    <img src="assets/img/logo_tutor2.png" alt="Tutor Choice" rel="tooltip" title="<b>Tutor Choice</b> รวบรวมสถานที่ติวและติวเตอร์ที่น่าสนใจ ทั้งแบบเสียตัง หรือจะติวฟรี ติวดี พร้อมทั้งเทคนิคในการรู้ต่างๆ" data-placement="bottom" data-html="true">
@@ -57,16 +57,17 @@ session_start();
 	    	<ul class="nav navbar-nav navbar-right">
 				<li>
 					<a >
-					Welcome! "
-						<?php
+                    Welcome! "
+                        <?php
 
 echo $_SESSION['abc'];
-?>"
-					</a>
+?>"</a>
 				</li>
-<li><a href="../index.html" target="">
-						Log out
-					</a></li>
+<li>
+                    <a href="../index.html" target="">
+                        Log out
+                    </a>
+                </li>
 	    	</ul>
 	    </div>
 	</div>
@@ -100,27 +101,200 @@ echo $_SESSION['abc'];
 			                    <div class="nav-align-center">
 									<ul class="nav nav-pills" role="tablist">
 									<li class="active">
-											<a href="page_8.php" role="tab" data-toggle="tab">
+											<a href="#math_p" role="tab" data-toggle="tab">
 												<img class="subjects" id="math" src="icon/blackboard.png"><br>คณิตศาสตร์
 											</a>
 										</li>
 										<li>
-				                            <a href="page_3.php" role="tab" data-toggle="tab"><img class="subjects" id="science" src="icon/microscope.png"><br>วิทยาศาสตร์</a>
+				                            <a href="#science_p" role="tab" data-toggle="tab"><img class="subjects" id="science" src="icon/microscope.png"><br>วิทยาศาสตร์</a>
 				                        </li>
 				                        <li>
-				                            <a href="page_4.php" role="tab" data-toggle="tab"><img class="subjects" id="language" src="icon/translator.png"><br>ภาษา</a>
+				                            <a href="#language_p" role="tab" data-toggle="tab"><img class="subjects" id="language" src="icon/translator.png"><br>ภาษา</a>
 				                        </li>
 				                        <li>
-				                    		<a href="page_5.php" role="tab" data-toggle="tab"><img class="subjects" id="social" src="icon/earth-globe.png"><br>สังคมศึกษา</a>
+				                    		<a href="#social_p" role="tab" data-toggle="tab"><img class="subjects" id="social" src="icon/earth-globe.png"><br>สังคมศึกษา</a>
 				                    	</li>
 					                    <li>
-					                    	<a href="page_6.php" role="tab" data-toggle="tab"><img class="subjects" id="art" src="icon/artist.png"><br>ศิลปะ</a>
+					                    	<a href="#art_p" role="tab" data-toggle="tab"><img class="subjects" id="art" src="icon/artist.png"><br>ศิลปะ</a>
 					                    </li>
 					                    </li>
 				                        <li>
-				                    		<a href="page_7.php" role="tab" data-toggle="tab"><img class="subjects" id="music" src="icon/violin.png"><br>ดนตรี</a>
+				                    		<a href="#music_p" role="tab" data-toggle="tab"><img class="subjects" id="music" src="icon/violin.png"><br>ดนตรี</a>
 				                    	</li>
 				                    </ul>
+
+                                    <hr>
+
+                                    <div class="tab-content gallery">
+                                        <div class="tab-pane active" id="math_p">
+                                            <div class="row">
+
+                                                <div class="col-sm-6 col-md-4">
+                                                    <div class="thumbnail">
+                                                        <img src="img-rounded img-responsive img-raised" src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t31.0-8/11147220_1598782423726752_8844416088367289125_o.jpg?oh=23fdc4a7578ec5ab1d8b9645b4efc011&oe=59947593" alt="...">
+                                                        <div class="caption">
+                                                            <h3>Tutor</h3>
+                                                            <p>พี่จั๊มพ์ สอนคณิต</p>
+                                                            <p><a href="https://www.facebook.com/mathpjump/" class="btn btn-primary" role="button">Choice</a> <a href="page_8.php" class="btn btn-default" role="button">More</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+ <div class="col-sm-6 col-md-4">
+                                                    <div class="thumbnail">
+                                                        <img src="http://www.tutoroui-plus.com/ouiadmin/photo/35.jpg" alt="...">
+                                                        <div class="caption">
+                                                            <h3>Tutor</h3>
+                                                            <p>oui+</p>
+                                                            <p><a href="http://www.tutoroui-plus.com/index.php" class="btn btn-primary" role="button">Choice</a> <a href="page_9.php" class="btn btn-default" role="button">More</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-6 col-md-4">
+                                                    <div class="thumbnail">
+                                                        <img src="http://www.trueplookpanya.com/assets/tppy_v1/images/share/header/logo-true.png" alt="...">
+                                                        <div class="caption">
+                                                            <h3>Tutor</h3>
+                                                            <p>Trueplookpanya</p>
+                                                            <p><a href="http://www.trueplookpanya.com/new/knowledge_list/all-2000/" class="btn btn-primary" role="button">Choice</a> <a href="page_10.php" role="button">More</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="col-sm-6 col-md-4">
+                                                    <div class="thumbnail">
+                                                        <img src="https://theorendatutor.com/wp-content/uploads/2017/03/TheOrendaTutor-460x460.png" alt="...">
+                                                        <div class="caption">
+                                                            <h3>Tutor</h3>
+                                                            <p>Theorendatutor</p>
+                                                            <p><a href="https://theorendatutor.com/" class="btn btn-primary" role="button">Choice</a> <a href="page_11.php" class="btn btn-default" role="button">More</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="tab-pane text-center" id="science_p">
+                                            <div class="row">
+
+
+
+                                               
+
+
+
+                                               <div class="col-sm-6 col-md-4">
+                                                    <div class="thumbnail">
+                                                        <img src="img-rounded img-responsive img-raised" src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.0-9/16807677_1344170298982314_7599358949155128525_n.jpg?oh=d03d06ee479ba319dc17c10dbf79d505&oe=59564BF8" alt="...">
+                                                        <div class="caption">
+                                                            <h3>Tutor</h3>
+                                                            <p>ฟิสิกส์โกเอก</p>
+                                                            <p><a href="http://www.physicskoake.com" class="btn btn-primary" role="button">Choice</a> <a href="page_4.php" class="btn btn-default" role="button">More</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+                                               <div class="col-sm-6 col-md-4">
+                                                    <div class="thumbnail">
+                                                        <img src="http://www.teamtiwnong.com/images/pr/bn-team-tutor.jpg" alt="...">
+                                                        <div class="caption">
+                                                            <h3>Tutor</h3>
+                                                            <p>Teamtiwnong</p>
+                                                            <p><a href="http://www.teamtiwnong.com/" class="btn btn-primary" role="button">Choice</a> <a href="page_12.php" class="btn btn-default" role="button">More</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+                                               <div class="col-sm-6 col-md-4">
+                                                    <div class="thumbnail">
+                                                        <img src="https://bestkru.com/images/profile_photo_large/6544-QXC663M2.jpg" alt="...">
+                                                        <div class="caption">
+                                                            <h3>Tutor</h3>
+                                                            <p>Leungpol สอนพิเศษสถาปัตย์ ย่านรังสิต</p>
+                                                            <p><a href="https://bestkru.com/6544" class="btn btn-primary" role="button">Choice</a> <a href="page_13.php" class="btn btn-default" role="button">More</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+                                        </div>
+
+
+
+
+
+
+                                        <div class="tab-pane text-center" id="language_p">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-4">
+                                                    <div class="thumbnail">
+                                                        <img src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.0-9/1545082_701316336579915_1047315695_n.jpg?oh=61d1175a8c79e13df0fc4b83a459c5c2&oe=59979B99" alt="...">
+                                                        <div class="caption">
+                                                            <h3>Tutor</h3>
+                                                            <p>TalkAmerican</p>
+                                                            <p><a href="https://www.facebook.com/talkamerican/" class="btn btn-primary" role="button">Choice</a> <a href="page_4.php" class="btn btn-default" role="button">More</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane text-center" id="social_p">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-4">
+                                                    <div class="thumbnail">
+                                                        <img src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.0-9/422392_354320624590881_1503134766_n.jpg?oh=0cc8aa7d36f4909c42652460daa652ba&oe=595D7CC2" alt="...">
+                                                        <div class="caption">
+                                                            <h3>Tutor</h3>
+                                                            <p>อ.ต้น บลาบลา</p>
+                                                            <p><a href="https://www.facebook.com/%E0%B8%AD%E0%B8%95%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B8%A5%E0%B8%B2%E0%B8%9A%E0%B8%A5%E0%B8%B2-330579093631701/" class="btn btn-primary" role="button">Choice</a> <a href="page_5.php" class="btn btn-default" role="button">More</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane text-center" id="art_p">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-4">
+                                                    <div class="thumbnail">
+                                                        <img src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.0-9/10659333_861024100588515_2663105569015556602_n.jpg?oh=db95297ae6e6a961a3c6461698597dcc&oe=5995B8F4" alt="...">
+                                                        <div class="caption">
+                                                            <h3>Tutor</h3>
+                                                            <p>โรงเรียนสอนศิลปะทอศิลป์</p>
+                                                            <p><a href="https://www.facebook.com/fantorsilp/" class="btn btn-primary" role="button">Choice</a> <a href="page_6.php" class="btn btn-default" role="button">More</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane text-center" id="music_p">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-4">
+                                                    <div class="thumbnail">
+                                                        <img src="img-rounded img-responsive img-raised" src="http://4.bp.blogspot.com/-wYsAXaQTVwU/VeHl7PLd6SI/AAAAAAAAGsw/3NP8hvRe-2U/s640/11063472_867545686645096_6929592698593716248_n.jpg" alt="...">
+                                                        <div class="caption">
+                                                            <h3>Tutor</h3>
+                                                            <p> ครูซัน มาตีกลองกันเถอะ</p>
+                                                            <p><a href="http://xn--12cm4bp6d0ave3e.blogspot.com/" class="btn btn-primary" role="button">Choice</a> <a href="page_7.php" class="btn btn-default" role="button">More</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 				               </div>
 				            </div>
 				        </div>
@@ -134,22 +308,22 @@ echo $_SESSION['abc'];
                 <nav class="pull-left">
                     <ul>
                         <li>
-                            <a href="http://www.creative-tim.com">
+                            <a href="index.html">
                                 Tutor Choice
                             </a>
                         </li>
                         <li>
-                            <a href="http://presentation.creative-tim.com">
+                            <a href="page_1.html">
                                List Tutor
                             </a>
                         </li>
                         <li>
-                            <a href="http://blog.creative-tim.com">
+                            <a href="page_2.html">
                                Blog
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.creative-tim.com/license">
+                            <a href="team.html">
                                 About Team
                             </a>
                         </li>
