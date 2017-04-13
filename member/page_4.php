@@ -87,9 +87,8 @@ session_start();
 	        	<span class="sr-only">Menu</span>
 	        	<span class="icon-bar"></span>
 	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-	    	</button>
-	    	<a href="http://www.creative-tim.com">
+	        	<span class=http://tutor-choice.esy.es/
+	    	<a href="http://tutor-choice.esy.es/">
 	        	<div class="logo-container">
 	                <div class="logo">
 	                    <img src="assets/img/logo_tutor2.png" alt="Tutor Choice" rel="tooltip" title="<b>Tutor Choice</b> รวบรวมสถานที่ติวและติวเตอร์ที่น่าสนใจ ทั้งแบบเสียตัง หรือจะติวฟรี ติวดี พร้อมทั้งเทคนิคในการรู้ต่างๆ" data-placement="bottom" data-html="true">
