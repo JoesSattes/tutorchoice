@@ -41,7 +41,7 @@ session_start();
 	        	<span class="icon-bar"></span>
 	        	<span class="icon-bar"></span>
 	    	</button>
-	    	<a href="index.html">
+	    	<a href="../index.html">
 	        	<div class="logo-container">
 	                <div class="logo">
 	                    <img src="assets/img/logo_tutor2.png" alt="Tutor Choice" rel="tooltip" title="<b>Tutor Choice</b> รวบรวมสถานที่ติวและติวเตอร์ที่น่าสนใจ ทั้งแบบเสียตัง หรือจะติวฟรี ติวดี พร้อมทั้งเทคนิคในการรู้ต่างๆ" data-placement="bottom" data-html="true">
@@ -308,7 +308,7 @@ echo $_SESSION['abc'];
                 <nav class="pull-left">
                     <ul>
                         <li>
-                            <a href="index.html">
+                            <a href="../index.html">
                                 Tutor Choice
                             </a>
                         </li>
@@ -323,7 +323,7 @@ echo $_SESSION['abc'];
                             </a>
                         </li>
                         <li>
-                            <a href="team.html">
+                            <a href="../team.html">
                                 About Team
                             </a>
                         </li>
