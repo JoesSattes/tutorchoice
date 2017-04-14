@@ -131,7 +131,7 @@ echo $_SESSION['abc'];
 
                                                 <div class="col-sm-6 col-md-4">
                                                     <div class="thumbnail">
-                                                        <img src="img-rounded img-responsive img-raised" src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t31.0-8/11147220_1598782423726752_8844416088367289125_o.jpg?oh=23fdc4a7578ec5ab1d8b9645b4efc011&oe=59947593" alt="...">
+                                                        <img class="img-rounded img-responsive img-raised" src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t31.0-8/11147220_1598782423726752_8844416088367289125_o.jpg?oh=23fdc4a7578ec5ab1d8b9645b4efc011&oe=59947593" alt="...">
                                                         <div class="caption">
                                                             <h3>Tutor</h3>
                                                             <p>พี่จั๊มพ์ สอนคณิต</p>
@@ -143,7 +143,7 @@ echo $_SESSION['abc'];
 
  <div class="col-sm-6 col-md-4">
                                                     <div class="thumbnail">
-                                                        <img src="http://www.tutoroui-plus.com/ouiadmin/photo/35.jpg" alt="...">
+                                                        <img class="img-rounded img-responsive img-raised" src="http://www.tutoroui-plus.com/ouiadmin/photo/35.jpg" alt="...">
                                                         <div class="caption">
                                                             <h3>Tutor</h3>
                                                             <p>oui+</p>
@@ -154,7 +154,7 @@ echo $_SESSION['abc'];
 
                                                 <div class="col-sm-6 col-md-4">
                                                     <div class="thumbnail">
-                                                        <img src="http://www.trueplookpanya.com/assets/tppy_v1/images/share/header/logo-true.png" alt="...">
+                                                        <img class="img-rounded img-responsive img-raised" src="http://www.trueplookpanya.com/assets/tppy_v1/images/share/header/logo-true.png" alt="...">
                                                         <div class="caption">
                                                             <h3>Tutor</h3>
                                                             <p>Trueplookpanya</p>
@@ -167,7 +167,7 @@ echo $_SESSION['abc'];
 
                                                 <div class="col-sm-6 col-md-4">
                                                     <div class="thumbnail">
-                                                        <img src="https://theorendatutor.com/wp-content/uploads/2017/03/TheOrendaTutor-460x460.png" alt="...">
+                                                        <img class="img-rounded img-responsive img-raised" src="https://theorendatutor.com/wp-content/uploads/2017/03/TheOrendaTutor-460x460.png" alt="...">
                                                         <div class="caption">
                                                             <h3>Tutor</h3>
                                                             <p>Theorendatutor</p>
@@ -193,7 +193,7 @@ echo $_SESSION['abc'];
 
                                                <div class="col-sm-6 col-md-4">
                                                     <div class="thumbnail">
-                                                        <img src="img-rounded img-responsive img-raised" src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.0-9/16807677_1344170298982314_7599358949155128525_n.jpg?oh=d03d06ee479ba319dc17c10dbf79d505&oe=59564BF8" alt="...">
+                                                        <img class="img-rounded img-responsive img-raised" src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.0-9/16807677_1344170298982314_7599358949155128525_n.jpg?oh=d03d06ee479ba319dc17c10dbf79d505&oe=59564BF8" alt="...">
                                                         <div class="caption">
                                                             <h3>Tutor</h3>
                                                             <p>ฟิสิกส์โกเอก</p>
@@ -206,7 +206,7 @@ echo $_SESSION['abc'];
 
                                                <div class="col-sm-6 col-md-4">
                                                     <div class="thumbnail">
-                                                        <img src="http://www.teamtiwnong.com/images/pr/bn-team-tutor.jpg" alt="...">
+                                                        <img class="img-rounded img-responsive img-raised" src="http://www.teamtiwnong.com/images/pr/bn-team-tutor.jpg" alt="...">
                                                         <div class="caption">
                                                             <h3>Tutor</h3>
                                                             <p>Teamtiwnong</p>
@@ -219,7 +219,7 @@ echo $_SESSION['abc'];
 
                                                <div class="col-sm-6 col-md-4">
                                                     <div class="thumbnail">
-                                                        <img src="https://bestkru.com/images/profile_photo_large/6544-QXC663M2.jpg" alt="...">
+                                                        <img class="img-rounded img-responsive img-raised" src="https://bestkru.com/images/profile_photo_large/6544-QXC663M2.jpg" alt="...">
                                                         <div class="caption">
                                                             <h3>Tutor</h3>
                                                             <p>Leungpol สอนพิเศษสถาปัตย์ ย่านรังสิต</p>
@@ -242,7 +242,7 @@ echo $_SESSION['abc'];
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-4">
                                                     <div class="thumbnail">
-                                                        <img src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.0-9/1545082_701316336579915_1047315695_n.jpg?oh=61d1175a8c79e13df0fc4b83a459c5c2&oe=59979B99" alt="...">
+                                                        <img class="img-rounded img-responsive img-raised" src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.0-9/1545082_701316336579915_1047315695_n.jpg?oh=61d1175a8c79e13df0fc4b83a459c5c2&oe=59979B99" alt="...">
                                                         <div class="caption">
                                                             <h3>Tutor</h3>
                                                             <p>TalkAmerican</p>
@@ -256,7 +256,7 @@ echo $_SESSION['abc'];
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-4">
                                                     <div class="thumbnail">
-                                                        <img src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.0-9/422392_354320624590881_1503134766_n.jpg?oh=0cc8aa7d36f4909c42652460daa652ba&oe=595D7CC2" alt="...">
+                                                        <img class="img-rounded img-responsive img-raised" src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.0-9/422392_354320624590881_1503134766_n.jpg?oh=0cc8aa7d36f4909c42652460daa652ba&oe=595D7CC2" alt="...">
                                                         <div class="caption">
                                                             <h3>Tutor</h3>
                                                             <p>อ.ต้น บลาบลา</p>
@@ -270,7 +270,7 @@ echo $_SESSION['abc'];
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-4">
                                                     <div class="thumbnail">
-                                                        <img src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.0-9/10659333_861024100588515_2663105569015556602_n.jpg?oh=db95297ae6e6a961a3c6461698597dcc&oe=5995B8F4" alt="...">
+                                                        <img class="img-rounded img-responsive img-raised" src="https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.0-9/10659333_861024100588515_2663105569015556602_n.jpg?oh=db95297ae6e6a961a3c6461698597dcc&oe=5995B8F4" alt="...">
                                                         <div class="caption">
                                                             <h3>Tutor</h3>
                                                             <p>โรงเรียนสอนศิลปะทอศิลป์</p>
@@ -284,7 +284,7 @@ echo $_SESSION['abc'];
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-4">
                                                     <div class="thumbnail">
-                                                        <img src="img-rounded img-responsive img-raised" src="http://4.bp.blogspot.com/-wYsAXaQTVwU/VeHl7PLd6SI/AAAAAAAAGsw/3NP8hvRe-2U/s640/11063472_867545686645096_6929592698593716248_n.jpg" alt="...">
+                                                        <img class="img-rounded img-responsive img-raised" src="http://4.bp.blogspot.com/-wYsAXaQTVwU/VeHl7PLd6SI/AAAAAAAAGsw/3NP8hvRe-2U/s640/11063472_867545686645096_6929592698593716248_n.jpg" alt="...">
                                                         <div class="caption">
                                                             <h3>Tutor</h3>
                                                             <p> ครูซัน มาตีกลองกันเถอะ</p>
